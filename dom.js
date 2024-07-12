@@ -60,3 +60,42 @@
 // div.getAttribute("name of id or class or any attribute");
 
 // setAttribute => if we want to set attribute
+
+
+
+
+
+// append(), prepend , remove,createElement etc are function for adding html element
+
+
+
+// APPEND VS APPEND CHILD
+// =====================
+
+// Types of Arguments:
+// appendChild can only append a single Node object at a time.
+// append can append multiple nodes and/or strings at once
+
+// Direct Text Strings:
+// appendChild cannot directly append text strings; you need to create a text node.
+// append can directly append text strings without creating a text node.
+
+// Return Value:
+// appendChild returns the appended node.
+// append returns undefined.
+
+
+
+// setTimeout => to perform asynchronous function
+
+function print() {
+    set(() => {
+        console.log(1);
+    }, 2000);
+}
+
+print();
+
+
+// callback function => function passed as parameter to different function as argument
+// to pass an argument in callback function we will write arrow function
